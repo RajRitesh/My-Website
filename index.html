@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Dev Design</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" 
+ href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+ <link rel="stylesheet" 
+ href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>  
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> 
+</head>
+<body>
+<!----- NavigationBar ---->
+<section id="nav-bar">
+ <nav class="navbar navbar-expand-lg navbar-light">
+ <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+ aria-expanded="false" aria-label="Togglenavigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#about">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#services">SERVICE</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#testimonial">TESTIMONIAL</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#work">WORK</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACT</a>
+        </li>
+    </ul>
+</div>
+ </nav>
+</section>
+<!-- Slider -->
+<div id="slider">
+<div id="headerslider" class="carousel slide" data-rider="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#headerslider" data-slide-ride-to="0" class="active"></li>
+        <li data-target="#headerslider" data-slide-ride-to="1" class="active"></li>
+        <li data-target="#headerslider" data-slide-ride-to="2" class="active"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+           <img class="d-block img-fluid" src="img/banner1.jpg"> 
+           <div class="carousel-caption">
+            <h5>Welcome to My World</h5>
+           </div>
+        </div>
+        <div class="carousel-item">
+            <img class="d-block img-fluid" src="img/banner2.jpg">
+            <div class="carousel-caption">
+            <h5>Contact For Graphics Design.</h5> 
+            </div>
+         </div>
+         <div class="carousel-item">
+            <img class="d-block img-fluid" src="img/banner3.jpg">
+            <div class="carousel-caption">
+            <h5>Contact For Web Design</h5>
+            </div> 
+         </div>
+    </div>
+    <a class="carousel-control-prev" href="#headerslider" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#headerslider" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+</div>
+<!-- About -->
+<section id="about">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+    <h2>About Us</h2>
+        <div class="about-content">
+            Welcome to the Dev Design, India's most renowned design site and one of the world 
+            wide best ranked web design, graphic design and video editing web sites.
+            Here you receive a modern and advanced ideas.you can hire a designer from here for 
+            all types of work that are mentioned in services section, our contact details are given in 
+            contact section. 
+        </div>
+        <a href="#"><button type="button" class="btn btn-primary">Read more>></button></a>
+</div>
+<div class="col-md-6 skills-bar">
+    <p>Adobe Photoshop</p>
+    <div class="progress">
+        <div class="progress-bar" style="width: 70%;">70%</div>
+    </div>
+    <p>Adobe Illustrator</p>
+    <div class="progress">
+        <div class="progress-bar" style="width: 80%;">80%</div>
+    </div>
+    <p>Adobe Xd</p>
+    <div class="progress">
+        <div class="progress-bar" style="width: 40%;">40%</div>
+    </div>
+    <p>Adobe Pagemaker</p>
+    <div class="progress">
+        <div class="progress-bar" style="width: 75%;">75%</div>
+    </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Services -->
+<section id="services">
+    <div class="container">
+        <h1>Our Services</h1>
+        <div class="row services">
+            <div class="col-md-3 text-center">
+                <div class="icon">
+                    <i class="fa fa-desktop"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>Web development is the work involved in developing a Web site for the Internet or an intranet.</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="icon">
+                    <i class="fa fa-slack"></i>
+                </div>
+                <h3>Logo Designing</h3>
+                <p>Logo design is all about creating the perfect visual brand mark for a company.</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="icon">
+                    <i class="fa fa-paint-brush"></i>
+                </div>
+                <h3>Graphics Designing</h3>
+                <p>Graphic design is a craft where professionals create visual content to communicate messages.</p>
+            </div>
+            <div class="col-md-3 text-center">
+                <div class="icon">
+                    <i class="fa fa-laptop"></i>
+                </div>
+                <h3>Video Editing</h3>
+                <p>Graphic design is a craft where professionals create visual content to communicate messages.</p>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!-- Testimonial -->
+<section id="testimonial">
+    <div class="container">
+        <h1>Testimonial</h1>
+        <p class="text-center">Know About Ourself</p>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <div class="profile">
+                    <img src="img/ritesh img.jpg" class="user">
+                    <blockquote>I have almost 8 year's of experience in designing field and also I am a freelancer
+                        since 3 year's, it is a greate pleasure to work for different types of peoples. And  it is 
+                        such a great experience to work with my friens Shivani Jha. i will highly recommended her service
+                    </blockquote>
+                        <a href="https://www.facebook.com/profile.php?id=100005941442452">
+                            <h3>Ritesh Kumar</a> <span>CEO/Founder of Dev Design</span></h3></a>
+                </div>
+            </div>
+
+            <div class="col-md-4 text-center">
+                <div class="profile">
+                    <img src="img/shiwi.jpg" class="user">
+                    <blockquote>“It is a pleasure working with Ritesh.
+                         He carefully evaluated our needs  in a very organized and professional manner.
+                          Eventually, after multiple small steps and daily emails he delivered exactly 
+                          what we wanted. He is a talented graphic designer and we plan on using his services again.” </blockquote>
+                        <a href="https://www.facebook.com/shiwani.jha.9404">
+                            <h3>Shiwani Jha</a><span>Co-founder of Dev Design</span></h3>
+                </div>
+            </div>
+
+            
+            
+        </div>
+    </div>
+</section>
+<!-- Works -->
+<section id="work">
+    <div class="container">
+
+        <h1>Work</h1>
+        <div class="row">
+            <div class="col-md-3 web-pic text-center">
+                <a href="./html/Web Dev.html">
+                <div class="img-box">
+                    <img src="img/web.jpg" class="img-responsive"></a>
+                </div>
+                    <h2>Web Dev</h2>
+            </div>
+
+
+            <div class="col-md-3 poster-pic text-center">
+                <a href="./html/poster.html">
+                <div class="img-box">
+                    <img src="img/poster.jpg" class="img-responsive"></a>
+                    <h2>Posters</h2>
+                </div>
+            </div>
+
+            <div class="col-md-3 logo-pic text-center">
+                <a href="./html/Logo.html">
+                <div class="img-box">
+                    <img src="img/logos.jpg" class="img-responsive"></a>
+                    <h2>Logos</h2>
+                </div>
+            </div>
+
+            <div class="col-md-3 business-cards-pic text-center">
+                <a href="./html/Business Card.html">
+                <div class="img-box">
+                    <img src="img/card.jpg" class="img-responsive"></a>
+                    <h2>Business Cards</h2>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- Get in Touch -->
+<section id="contact">
+    <div class="container">
+        <h1>Get In Touch</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <form class="contact-form">
+                <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name">
+                </div>
+
+                <div class="form-group">
+                    <input type="number" class="form-control" placeholder="Phone no.">
+                </div>
+
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email id">
+                </div>
+
+                <div class="form-group">
+                    <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">SEND MESSAGE</button>
+                </form> 
+            </div>
+            <div class="cpl-md-6 contact-info">
+                <div class="follow"><b>Address:</b><i class="fa fa-map-marker"></i> Naya Bazar Madhupur, Deoghar</div>
+                <div class="follow"><b>Phone No.:</b><i class="fa fa-phone"></i> 8709902075</div>
+                <div class="follow"><b>Email Id:</b><i class="fa fa-envelope"></i> cutmr.r.k.mehra@gmail.com</div>
+                <div class="follow"><label><b>Get Social:</b></label>
+                    <a href="https://www.facebook.com/profile.php?id=100005941442452"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/riteshkumar6296/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer -->
+<section id="footer">
+<div class="container text-center">
+    <p>Thanks to Visit My Website</p>
+</div>
+</section>
+<!-- Footer End  -->
+<script src="js/smooth-scroll.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+</body>
+</html>
